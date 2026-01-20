@@ -1,5 +1,4 @@
 # 🚌 SmartSafar – City Bus Management System
-
 SmartSafar is a **full-stack city bus management system** designed to provide a seamless public transport experience for users, conductors, and administrators.  
 The platform enables **bus search, route management, ticket booking, secure payments, and real-time tracking**, built using modern backend and frontend technologies.
 
