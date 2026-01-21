@@ -59,7 +59,6 @@ const AdminDashboard = () => {
 
   return (
     <div className="min-h-screen bg-background flex">
-      {/* Sidebar */}
       <motion.aside
         initial={{ x: -250 }}
         animate={{ x: 0 }}
