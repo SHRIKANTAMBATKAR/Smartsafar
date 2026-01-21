@@ -18,7 +18,6 @@ import {
   SelectTrigger,
   SelectValue,
 } from "@/components/ui/select";
-
 const BookingPage = () => {
   const [searchParams] = useSearchParams();
   const navigate = useNavigate();
