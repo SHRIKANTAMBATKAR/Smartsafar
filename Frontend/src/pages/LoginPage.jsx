@@ -72,29 +72,6 @@ const LoginPage = () => {
             Sign in to your account to continue
           </p>
 
-          {/* Sample Credentials */}
-          <div className="bg-muted/50 rounded-lg p-4 mb-6 border border-border">
-            <h3 className="text-sm font-medium mb-2 text-muted-foreground">Sample Credentials</h3>
-            <div className="space-y-2 text-sm">
-              <div className="flex justify-between">
-                <span className="text-muted-foreground">Admin:</span>
-                <span className="font-mono">admin@citybus.com</span>
-              </div>
-              <div className="flex justify-between">
-                <span className="text-muted-foreground">Password:</span>
-                <span className="font-mono">admin123</span>
-              </div>
-              <div className="flex justify-between">
-                <span className="text-muted-foreground">User:</span>
-                <span className="font-mono">user@citybus.com</span>
-              </div>
-              <div className="flex justify-between">
-                <span className="text-muted-foreground">Password:</span>
-                <span className="font-mono">user123</span>
-              </div>
-            </div>
-          </div>
-
           <form onSubmit={handleSubmit} className="space-y-6">
             <div className="space-y-2">
               <Label htmlFor="email">Email</Label>
