@@ -26,7 +26,6 @@ const TrackingPage = () => {
 
   const handleBusesUpdate = useCallback((buses) => {
     setAllBuses(buses);
-    // Update selected bus with new position data
     if (selectedBus) {
       const updated = buses.find(b => b.id === selectedBus.id);
       if (updated) {
