@@ -1,5 +1,4 @@
 package com.smartsafar.security;
-
 import org.springframework.context.annotation.*;
 import org.springframework.security.authentication.*;
 import org.springframework.security.config.annotation.authentication.configuration.AuthenticationConfiguration;
