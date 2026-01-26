@@ -1,5 +1,4 @@
 package com.smartsafar.security;
-
 import com.smartsafar.entity.User;
 import com.smartsafar.repository.UserRepository;
 import org.springframework.security.core.userdetails.*;
